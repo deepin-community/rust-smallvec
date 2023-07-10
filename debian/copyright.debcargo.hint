@@ -1,19 +1,29 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: smallvec
-Upstream-Contact: Simon Sapin <simon.sapin@exyr.org>
+Upstream-Contact: The Servo Project Developers
 Source: https://github.com/servo/rust-smallvec
 
 Files: *
-Copyright:
- 2015-2020 Simon Sapin <simon.sapin@exyr.org>
- 2018-2022 The Servo Project Developers
+Copyright: FIXME (overlay) UNKNOWN-YEARS The Servo Project Developers
 License: MIT or Apache-2.0
+Comment:
+ FIXME (overlay): Since upstream copyright years are not available in
+ Cargo.toml, they were extracted from the upstream Git repository. This may not
+ be correct information so you should review and fix this before uploading to
+ the archive.
+
+Files: ./LICENSE-MIT
+Copyright: 2018 The Servo Project Developers
+License: UNKNOWN-LICENSE; FIXME (overlay)
+Comment:
+ FIXME (overlay): These notices are extracted from files. Please review them
+ before uploading to the archive.
 
 Files: debian/*
 Copyright:
  2018-2022 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
- 2018 kpcyrd <git@rxv.cc>
- 2018-2019 Wolfgang Silbermayr <wolfgang@silbermayr.at>
+ 2018-2022 kpcyrd <git@rxv.cc>
+ 2018-2022 Wolfgang Silbermayr <wolfgang@silbermayr.at>
 License: MIT or Apache-2.0
 
 License: Apache-2.0
